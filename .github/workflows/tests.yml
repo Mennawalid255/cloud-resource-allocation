@@ -25,15 +25,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install -e .
-            - name: Debug - what does CI see?
-        
-      - name: Debug - what does CI see?
-        run: |
-          git log -1 --oneline
-          ls -la tests
-          cat pyproject.toml
-          cat tests/test_contract.py
 
       - name: Run tests
         run: pytest -v
-        
