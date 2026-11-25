@@ -7,6 +7,6 @@ def run(tasks: list[Task], vms: list[VM]) -> Allocation:
     for t in tasks:
         vm = next((v for v in vms if fits(t, v)), None)
         if vm is None:
-            raise ValueError(f"task {t[\"id\"]} fits no VM")
+            raise ValueError("task " + str(t["id"]) + " fits no VM")
         allocation[t["id"]] = vm["id"]
     return allocation
