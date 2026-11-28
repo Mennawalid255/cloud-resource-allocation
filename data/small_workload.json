@@ -1,0 +1,196 @@
+{
+  "vms": [
+    {
+      "id": "VM1",
+      "mips": 827,
+      "ram": 4,
+      "cost_per_sec": 0.021
+    },
+    {
+      "id": "VM2",
+      "mips": 1481,
+      "ram": 8,
+      "cost_per_sec": 0.073
+    },
+    {
+      "id": "VM3",
+      "mips": 2709,
+      "ram": 16,
+      "cost_per_sec": 0.239
+    },
+    {
+      "id": "VM4",
+      "mips": 516,
+      "ram": 4,
+      "cost_per_sec": 0.023
+    },
+    {
+      "id": "VM5",
+      "mips": 1438,
+      "ram": 8,
+      "cost_per_sec": 0.094
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T15",
+      "length": 7610,
+      "memory": 16,
+      "arrival_time": 0.41,
+      "priority": 1,
+      "deadline": 15.38
+    },
+    {
+      "id": "T12",
+      "length": 5735,
+      "memory": 4,
+      "arrival_time": 0.5,
+      "priority": 3,
+      "deadline": 9.63
+    },
+    {
+      "id": "T7",
+      "length": 6675,
+      "memory": 2,
+      "arrival_time": 0.64,
+      "priority": 1,
+      "deadline": 11.18
+    },
+    {
+      "id": "T5",
+      "length": 3014,
+      "memory": 8,
+      "arrival_time": 0.96,
+      "priority": 1,
+      "deadline": 5.52
+    },
+    {
+      "id": "T17",
+      "length": 5538,
+      "memory": 8,
+      "arrival_time": 1.09,
+      "priority": 3,
+      "deadline": 9.59
+    },
+    {
+      "id": "T16",
+      "length": 6367,
+      "memory": 2,
+      "arrival_time": 1.27,
+      "priority": 3,
+      "deadline": 8.19
+    },
+    {
+      "id": "T18",
+      "length": 1122,
+      "memory": 1,
+      "arrival_time": 1.47,
+      "priority": 1,
+      "deadline": 2.71
+    },
+    {
+      "id": "T4",
+      "length": 6954,
+      "memory": 1,
+      "arrival_time": 1.76,
+      "priority": 2,
+      "deadline": 14.63
+    },
+    {
+      "id": "T1",
+      "length": 1131,
+      "memory": 8,
+      "arrival_time": 2.86,
+      "priority": 2,
+      "deadline": 4.85
+    },
+    {
+      "id": "T8",
+      "length": 3215,
+      "memory": 16,
+      "arrival_time": 2.96,
+      "priority": 3,
+      "deadline": 9.03
+    },
+    {
+      "id": "T14",
+      "length": 2356,
+      "memory": 4,
+      "arrival_time": 2.97,
+      "priority": 3,
+      "deadline": 7.44
+    },
+    {
+      "id": "T2",
+      "length": 2077,
+      "memory": 1,
+      "arrival_time": 4.53,
+      "priority": 3,
+      "deadline": 7.64
+    },
+    {
+      "id": "T20",
+      "length": 9221,
+      "memory": 8,
+      "arrival_time": 4.98,
+      "priority": 2,
+      "deadline": 22.84
+    },
+    {
+      "id": "T3",
+      "length": 7584,
+      "memory": 16,
+      "arrival_time": 5.77,
+      "priority": 2,
+      "deadline": 18.09
+    },
+    {
+      "id": "T6",
+      "length": 6838,
+      "memory": 16,
+      "arrival_time": 5.97,
+      "priority": 1,
+      "deadline": 16.27
+    },
+    {
+      "id": "T11",
+      "length": 9165,
+      "memory": 2,
+      "arrival_time": 6.64,
+      "priority": 1,
+      "deadline": 19.83
+    },
+    {
+      "id": "T13",
+      "length": 3547,
+      "memory": 16,
+      "arrival_time": 6.72,
+      "priority": 3,
+      "deadline": 10.52
+    },
+    {
+      "id": "T10",
+      "length": 7994,
+      "memory": 4,
+      "arrival_time": 7.87,
+      "priority": 2,
+      "deadline": 23.05
+    },
+    {
+      "id": "T9",
+      "length": 2188,
+      "memory": 1,
+      "arrival_time": 9.88,
+      "priority": 1,
+      "deadline": 13.85
+    },
+    {
+      "id": "T19",
+      "length": 779,
+      "memory": 4,
+      "arrival_time": 9.89,
+      "priority": 1,
+      "deadline": 11.37
+    }
+  ]
+}
